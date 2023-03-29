@@ -86,3 +86,7 @@ const Cabecalho = () => {
 export default Cabecalho
 
 ```
+
+# React-Bootstrap
+
+    npm install react-bootstrap bootstrap
