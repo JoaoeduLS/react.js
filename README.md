@@ -53,9 +53,8 @@ export default Cabecalho
 
 ### Componentes
 
+* import no index cabecalho
 ```
-* import no index
-
 import Cabecalho from "../components/Cabecalho";
 
 
@@ -67,5 +66,19 @@ export default function Home() {
   </>
   )
 }
+```
+
+* cabecalho
+
+```
+import React from 'react'
+
+const Cabecalho = () => {
+  return (
+    <>Cabecalho</>
+  )
+}
+
+export default Cabecalho
 
 ```
