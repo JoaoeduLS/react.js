@@ -178,3 +178,68 @@ const arrey = () => {
 
 export default arrey
 ```
+
+### COLOCA O CONTEUDO DENTRO NO CENTRO OU AONDE VC QUISER COLOCA
+
+- index.js
+
+```
+import Cabecalho from "../components/Cabecalho";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Pagina from "../components/Pagina";
+import { Container } from "react-bootstrap";
+
+export default function Home() {
+  return (
+    <>
+      <Pagina titulo="pagina 1 ">
+        {/* tudo que eu coloca de conteudo fica dentro do props EX:{props.children} vai puxa tudo*/}
+        <Container>
+          <h1>hellow word</h1>
+          <p>paragrafo 1</p>
+          <p>paragrafo 2</p>
+          <p>paragrafo 3</p>
+          <p>paragrafo 4</p>
+        </Container>
+      </Pagina>
+    </>
+  );
+}
+```
+
+- pagina.jsx
+
+- o conteudo vai ser exibido aonde estiver o props
+
+```
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
+import Cabecalho from "../components/Cabecalho";
+
+const Pagina = (props) => {
+  return (
+    <>
+      {/* Cabecalho */}
+      <Cabecalho />
+      <div className="bg-secondary py-3 text-white text-center mb-3">
+        <Container>
+          <h1>{props.titulo}</h1>
+        </Container>
+      </div>
+      {/* tudo que vai fica dentro da pagina */}
+      {props.children}
+      {/* final da pagina  */}
+      <div
+        style={{ width: "100%" }}
+        className="bg-secondary bottom-0 py-1 text-white text-center"
+      >
+        <p>Todos os direitos Reservados®</p>
+      </div>
+    </>
+  );
+};
+
+export default Pagina;
+
+```

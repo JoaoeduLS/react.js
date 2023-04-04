@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <>
       <Pagina titulo="pagina 1 ">
+        {/* tudo que eu coloca de conteudo fica dentro do props EX:{props.children} vai puxa tudo*/}
         <Container>
           <h1>hellow word</h1>
           <p>paragrafo 1</p>

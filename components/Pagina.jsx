@@ -22,7 +22,6 @@ const Pagina = (props) => {
       >
         <p>Todos os direitos Reservados®</p>
       </div>
-      <h1>Hellow Ward!!</h1>
     </>
   );
 };
