@@ -14,8 +14,9 @@ const arrey = () => {
 */
   return (
     <>
-      <Pagina />
-      <h1>arrey</h1>
+      <Pagina titulo="arreys">
+        <div>arrey</div>
+      </Pagina>
     </>
   );
 };

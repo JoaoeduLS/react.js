@@ -18,7 +18,7 @@ const Pagina = (props) => {
       {/* final da pagina  */}
       <div
         style={{ width: "100%" }}
-        className="bg-secondary bottom-0 py-1 text-white text-center"
+        className="bg-secondary position-fixed bottom-0 py-1 text-white text-center"
       >
         <p>Todos os direitos Reservados®</p>
       </div>
