@@ -3,21 +3,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import Cabecalho from "../components/Cabecalho";
 
-const Pagina = () => {
+const Pagina = (props) => {
   return (
     <>
+      {/* Cabecalho */}
       <Cabecalho />
       <div className="bg-secondary py-3 text-white text-center mb-3">
         <Container>
-          <h1>Pagina</h1>
+          <h1>{props.titulo}</h1>
         </Container>
       </div>
+      {/* tudo que vai fica dentro da pagina */}
+      {props.children}
+      {/* final da pagina  */}
       <div
         style={{ width: "100%" }}
-        className="bg-secondary position-fixed bottom-0 py-1 text-white text-center"
+        className="bg-secondary bottom-0 py-1 text-white text-center"
       >
         <p>Todos os direitos Reservados®</p>
       </div>
+      <h1>Hellow Ward!!</h1>
     </>
   );
 };
