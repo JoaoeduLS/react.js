@@ -12,8 +12,16 @@ const arrey = () => {
     }
 
 */
+
   // arrey  com conchete
-  const pessoas = ["Hugo", "Diogo", "Joao"];
+  const pessoas = [
+    "Camisa do Naruto",
+    "Camisa do Batman",
+    "Camisa do Leo Stronda",
+    "Camisa do Ban",
+    "Camisa do Pedrin Matador",
+    "Camisa Diogo Gay",
+  ];
   //obejto e chave
   const pessoa = {
     nome: "joao",
@@ -40,7 +48,14 @@ const arrey = () => {
     <>
       <Pagina titulo="arreys">
         <Container>
-          <div>arrey</div>
+          {/* <div>{pessoas[1]}</div> */}
+          {/* <div>{pessoa.nome}</div> */}
+          <div>{pessoas[0]}</div>
+          <div>{pessoas[1]}</div>
+          <div>{pessoas[2]}</div>
+          <div>{pessoas[3]}</div>
+          <div>{pessoas[4]}</div>
+          <div>{pessoas[5]}</div>
         </Container>
       </Pagina>
     </>
