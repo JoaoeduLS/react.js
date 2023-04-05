@@ -14,16 +14,9 @@ const arrey = () => {
 */
 
   // arrey  com conchete
-  const pessoas = [
-    "Camisa do Naruto",
-    "Camisa do Batman",
-    "Camisa do Leo Stronda",
-    "Camisa do Ban",
-    "Camisa do Pedrin Matador",
-    "Camisa Diogo Gay",
-  ];
+
   //obejto e chave
-  const pessoa = {
+  /*const pessoa = {
     nome: "joao",
     idade: "21",
     telefone: "(61) 9 9999-9999",
@@ -35,7 +28,7 @@ const arrey = () => {
 
   let endereco = "ABC";
 
-  endereco;
+  endereco;*/
 
   // string
   // number
@@ -44,18 +37,32 @@ const arrey = () => {
   // float
   // arrey
 
+  const camisas = [
+    "Camisa do Naruto",
+    "Camisa do Batman",
+    "Camisa do Leo Stronda",
+    "Camisa do Ban",
+    "Camisa do Pedrin Matador",
+    "Camisa Diogo Gay",
+  ];
+
   return (
     <>
       <Pagina titulo="arreys">
         <Container>
-          {/* <div>{pessoas[1]}</div> */}
-          {/* <div>{pessoa.nome}</div> */}
-          <div>{pessoas[0]}</div>
-          <div>{pessoas[1]}</div>
-          <div>{pessoas[2]}</div>
-          <div>{pessoas[3]}</div>
-          <div>{pessoas[4]}</div>
-          <div>{pessoas[5]}</div>
+          {/* <div>{camisas[1]}</div> */}
+          {/* <div>{camisas.nome}</div> */}
+
+{camisas.map(item =>(
+  
+))}
+
+          <p>{camisas[0]}</p>
+          <p>{camisas[1]}</p>
+          <p>{camisas[2]}</p>
+          <p>{camisas[3]}</p>
+          <p>{camisas[4]}</p>
+          <p>{camisas[5]}</p>
         </Container>
       </Pagina>
     </>
