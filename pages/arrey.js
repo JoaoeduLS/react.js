@@ -12,6 +12,30 @@ const arrey = () => {
     }
 
 */
+  // arrey  com conchete
+  const pessoas = ["Hugo", "Diogo", "Joao"];
+  //obejto e chave
+  const pessoa = {
+    nome: "joao",
+    idade: "21",
+    telefone: "(61) 9 9999-9999",
+  };
+
+  const nome = "joao";
+  const idade = "21";
+  const telefone = "(61) 9 9999-9999";
+
+  let endereco = "ABC";
+
+  endereco;
+
+  // string
+  // number
+  // boolean
+  // object
+  // float
+  // arrey
+
   return (
     <>
       <Pagina titulo="arreys">

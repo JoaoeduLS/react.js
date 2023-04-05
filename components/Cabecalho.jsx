@@ -11,7 +11,7 @@ const Cabecalho = () => {
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="./arrey">Arrey</Nav.Link>
-            <Nav.Link href="#">fsdfss</Nav.Link>
+            <Nav.Link href="./objeto">Objeto</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
         </Container>
