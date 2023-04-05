@@ -10,54 +10,54 @@ const objeto = () => {
       nomedacamisa: "Camisa do Naruto",
       marca: "css anime",
       modelo: "manga longa",
-      tamanho: "pp",
+      tamanho: "PP",
       id: 1,
       preço: 23.0,
       foto: "",
     },
     {
       nomedacamisa: "Camisa do Batman",
-      marca: "css anime",
+      marca: "anime mapa",
       modelo: "manga longa",
-      tamanho: "pp",
+      tamanho: "G4",
       id: 2,
-      preço: 23.0,
+      preço: 150.0,
       foto: "",
     },
     {
       nomedacamisa: "Camisa do Leo Stronda",
-      marca: "css anime",
-      modelo: "manga longa",
-      tamanho: "pp",
+      marca: "loja leo",
+      modelo: "regata",
+      tamanho: "GG",
       id: 3,
-      preço: 23.0,
+      preço: 100.0,
       foto: "",
     },
     {
       nomedacamisa: "Camisa do Ban",
       marca: "css anime",
-      modelo: "manga longa",
-      tamanho: "pp",
+      modelo: "manga curta",
+      tamanho: "M",
       id: 4,
-      preço: 23.0,
+      preço: 50.0,
       foto: "",
     },
     {
       nomedacamisa: "Camisa do Pedrin Matador",
-      marca: "css anime",
+      marca: "anime ganabara",
       modelo: "manga longa",
-      tamanho: "pp",
+      tamanho: "G",
       id: 5,
-      preço: 23.0,
+      preço: 74.0,
       foto: "",
     },
     {
       nomedacamisa: "Camisa Diogo Gay",
       marca: "css anime",
       modelo: "manga longa",
-      tamanho: "pp",
+      tamanho: "P",
       id: 6,
-      preço: 23.0,
+      preço: 38.0,
       foto: "",
     },
 
@@ -72,7 +72,7 @@ const objeto = () => {
   return (
     <>
       <Pagina titulo="Objetos">
-        <Container>{camisas[3].nomedacamisa}</Container>
+        <Container>{camisas[3].preço}</Container>
       </Pagina>
     </>
   );
