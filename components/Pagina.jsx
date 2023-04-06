@@ -14,7 +14,7 @@ const Pagina = (props) => {
         </Container>
       </div>
       {/* tudo que vai fica dentro da pagina */}
-      {props.children}
+      <Container className="mb-5 pb-3">{props.children}</Container>
       {/* final da pagina  */}
       <div
         style={{ width: "100%" }}

@@ -49,22 +49,20 @@ const arrey = () => {
   return (
     <>
       <Pagina titulo="arreys">
-        <Container>
-          {/* <div>{camisas[1]}</div> */}
-          {/* <div>{camisas.nome}</div> */}
-          <h2>lista ordenada</h2>
-          <ol>
-            {camisas.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ol>
+        {/* <div>{camisas[1]}</div> */}
+        {/* <div>{camisas.nome}</div> */}
+        <h2>lista ordenada</h2>
+        <ol>
+          {camisas.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ol>
 
-          {/* <p>{camisas[1]}</p> 
+        {/* <p>{camisas[1]}</p> 
           <p>{camisas[2]}</p>
           <p>{camisas[3]}</p>
           <p>{camisas[4]}</p>
           <p>{camisas[5]}</p>*/}
-        </Container>
       </Pagina>
     </>
   );

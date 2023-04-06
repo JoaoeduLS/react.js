@@ -72,34 +72,32 @@ const objeto = () => {
   return (
     <>
       <Pagina titulo="Objetos">
-        <Container>
-          <Row>
-            {camisas.map((item) => (
-              <Col md={3}>
-                <Card className="mb-3">
-                  <Card.Img variant="top" src={item.foto} />
-                  <Card.Body>
-                    <Card.Title>{item.nomedacamisa}</Card.Title>
-                    <Card.Text>
-                      <b>marca: </b>
-                      {item.marca}
-                      <br></br>
-                      <b>preço: </b>
-                      {item.preço}
-                      <br></br>
-                      <b>tamanho: </b>
-                      {item.tamanho}
-                      <br></br>
-                      <b>modelo: </b>
-                      {item.modelo}
-                    </Card.Text>
-                    <Button variant="primary">Compra</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </Container>
+        <Row>
+          {camisas.map((item) => (
+            <Col md={3}>
+              <Card className="mb-3 col-12 row-3 ">
+                <Card.Img variant="top" src={item.foto} />
+                <Card.Body>
+                  <Card.Title>{item.nomedacamisa}</Card.Title>
+                  <Card.Text>
+                    <b>marca: </b>
+                    {item.marca}
+                    <br></br>
+                    <b>preço: </b>
+                    {item.preço}
+                    <br></br>
+                    <b>tamanho: </b>
+                    {item.tamanho}
+                    <br></br>
+                    <b>modelo: </b>
+                    {item.modelo}
+                  </Card.Text>
+                  <Button variant="primary">Compra</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
       </Pagina>
     </>
   );
