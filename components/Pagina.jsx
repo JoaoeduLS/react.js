@@ -9,7 +9,7 @@ const Pagina = (props) => {
       {/* Cabecalho */}
       <Cabecalho />
       <div className="bg-secondary py-3 text-white text-center mb-3">
-        <Container>
+        <Container className="mb-5 pb-3">
           <h1>{props.titulo}</h1>
         </Container>
       </div>
