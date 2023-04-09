@@ -52,13 +52,13 @@ const objeto = () => {
       foto: "https://th.bing.com/th/id/R.9ad0c80ce8ebfcc5b3ff5421104e7608?rik=vWkHdAehZTG6aQ&pid=ImgRaw&r=0",
     },
     {
-      nomedacamisa: "Camisa Diogo Gay",
-      marca: "css anime",
+      nomedacamisa: "Camisa batman",
+      marca: "css DC",
       modelo: "manga longa",
       tamanho: "P",
       id: 6,
       preço: 38.0,
-      foto: "https://th.bing.com/th/id/R.a68581cca0e62671d148fc70648a31c3?rik=OHEEh%2ffklc%2fjlg&pid=ImgRaw&r=0",
+      foto: "https://images-americanas.b2w.io/produtos/1890969795/imagens/camiseta-camisa-masculino-herois-batman-3d-roupas-dry-fit/1890969859_1_large.jpg",
     },
 
     /* "Camisa do Naruto",
@@ -74,9 +74,9 @@ const objeto = () => {
       <Pagina titulo="Objetos">
         <Row>
           {camisas.map((item) => (
-            <Col md={3}>
+            <Col md={3} className="mb-4">
               <Card className="mb-3 col-12 row-3 ">
-                <Card.Img variant="top" src={item.foto} />
+                <Card.Img style={{ width: '259px', height:'220px' }} variant="top" src={item.foto} />
                 <Card.Body>
                   <Card.Title>{item.nomedacamisa}</Card.Title>
                   <Card.Text>
