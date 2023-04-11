@@ -407,6 +407,8 @@ export default arrey;
 
 ### Parte 2
 
-#### Colocando biblioteca axios 
+#### Colocando biblioteca axios
 
     npm i axios
+
+#### criar a pasta services para as API
