@@ -404,3 +404,9 @@ LISTA ORDENADA
 
 export default arrey;
 ```
+
+### Parte 2
+
+#### Colocando biblioteca axios 
+
+    npm i axios
