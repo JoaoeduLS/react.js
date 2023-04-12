@@ -2,6 +2,9 @@
 
 ## Criando o projeto React JS "framework next js"
 
+    npx create-next-app@latest "nome do projeto"
+
+
     npx create-next-app@latest introducao --use-npm --example https://github.com/vercel/next-learn/tree/master/basics/learn-starter
 
 - se o node nao estiver atualizado usa a função:
